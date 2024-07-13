@@ -4,5 +4,5 @@ A display of my skills
 # Run it
 
 ```sh
-deno task run
+deno task start
 ```
