@@ -45,8 +45,8 @@
         {
 			"company": "Denner",
 			"position": "Software Engineer",
-			"startDate": "2021-01-01",
-			"endDate": "2021-12-31",
+			"startDate": "2024-06-31",
+			"endDate": "none",
 			"description": ["Build Server side Web Application for viewing profiles of users and clients"]
 		}
     ]
