@@ -1,9 +1,17 @@
+import GithubStats from "../islands/github_stats.tsx";
 import TextAnimate from "../islands/text_animate.tsx";
 
-const arr = ["Hello, myself Siddharth Sutar", "I'm a software engineer", "I love to code", "I'm a full stack developer", "I'm a web developer", "I'm a mobile developer"];
+const arr = [
+	"Hello, myself Siddharth Sutar",
+	"I'm a software engineer",
+	"I love to code",
+	"I'm a full stack developer",
+	"I'm a web developer",
+	"I'm a mobile developer",
+];
 
 export default function Home() {
-  return (
+	return (
 		<>
 			<nav class="bg-white border-gray-200 dark:bg-gray-900">
 				<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -55,7 +63,7 @@ export default function Home() {
 									class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
 									aria-current="page"
 								>
-									Home
+									Projects
 								</a>
 							</li>
 							<li>
@@ -63,7 +71,7 @@ export default function Home() {
 									href="#"
 									class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
 								>
-									About
+									My Story
 								</a>
 							</li>
 							<li>
@@ -79,7 +87,7 @@ export default function Home() {
 				</div>
 			</nav>
 			<div className="bg-white dark:bg-gray-900 flex justify-center items-center h-full">
-				<TextAnimate array={arr}/>
+				<TextAnimate array={arr} />
 			</div>
 			<div class="bg-white dark:bg-gray-900 flex justify-center items-center m-10">
 				<img
@@ -87,6 +95,10 @@ export default function Home() {
 					className="rounded-xl object-cover h-50 w-96"
 				/>
 			</div>
+			<div className="flex justify-center items-center mb-7">
+				<p>Github Stats</p>
+			</div>
+			<GithubStats />
 		</>
-  );
+	);
 }

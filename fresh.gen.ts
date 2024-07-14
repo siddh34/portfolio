@@ -4,8 +4,10 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $api_github from "./routes/api/github.ts";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $index from "./routes/index.tsx";
+import * as $github_stats from "./islands/github_stats.tsx";
 import * as $text_animate from "./islands/text_animate.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
@@ -13,10 +15,12 @@ const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/api/github.ts": $api_github,
     "./routes/api/joke.ts": $api_joke,
     "./routes/index.tsx": $index,
   },
   islands: {
+    "./islands/github_stats.tsx": $github_stats,
     "./islands/text_animate.tsx": $text_animate,
   },
   baseUrl: import.meta.url,

@@ -17,10 +17,9 @@ function TextAnimate(props: TextAnimateProps) {
 			setIndex(randomIndex);
 			const displayTimePerCharacter = 78;
 			const timeoutDuration =
-				props.array[randomIndex].length * displayTimePerCharacter + 50;
+				props.array[randomIndex].length * displayTimePerCharacter;
 			timeoutId = setTimeout(() => {
-				console.log(props.array[randomIndex]);
-				setText(props.array[randomIndex]);
+        setText(props.array[index]);
 			}, timeoutDuration);
 		};
 
