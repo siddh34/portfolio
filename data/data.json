@@ -1,5 +1,16 @@
 {
     "skills": ["Javascript", "Typescript", "React", "Express", "NestJS", "C++", "Java", "Go", "Rust"],
+    "skillsIcon": {
+        "Javascript": "https://img.icons8.com/color/48/000000/javascript.png",
+        "Typescript": "https://img.icons8.com/color/48/000000/typescript.png",
+        "React": "https://img.icons8.com/color/48/000000/react-native.png",
+        "Express": "https://img.icons8.com/color/48/000000/nodejs.png",
+        "NestJS": "https://img.icons8.com/color/48/000000/nestjs.png",
+        "C++": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png",
+        "Java": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png",
+        "Go": "https://img.icons8.com/color/48/000000/golang.png",
+        "Rust": "https://img.icons8.com/color/48/000000/rust.png"
+    },
     "education": [
         {
             "institution": "Vishakarma Institute of Information Technology",
