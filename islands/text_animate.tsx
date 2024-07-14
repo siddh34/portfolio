@@ -2,22 +2,26 @@ import TextForwardAnimation from "../components/text_forward_animation.tsx";
 import { useEffect, useState, useRef } from "preact/hooks";
 
 interface TextAnimateProps {
-	array: string[];
+  array: string[];
 }
 
 function TextAnimate(props: TextAnimateProps) {
 	const [text, setText] = useState(props.array[0]);
+  const [index, setIndex] = useState(0);
 	const animatedTextRef = useRef<HTMLDivElement>(null);
 
 	useEffect(() => {
 		let timeoutId: ReturnType<typeof setTimeout>;
 		const handleAnimationIteration = () => {
+			const randomIndex = Math.floor(Math.random() * props.array.length);
+			setIndex(randomIndex);
+			const displayTimePerCharacter = 78;
+			const timeoutDuration =
+				props.array[randomIndex].length * displayTimePerCharacter + 50;
 			timeoutId = setTimeout(() => {
-				const randomIndex = Math.floor(
-					Math.random() * props.array.length
-				);
+				console.log(props.array[randomIndex]);
 				setText(props.array[randomIndex]);
-			}, 5000);
+			}, timeoutDuration);
 		};
 
 		const animatedText = animatedTextRef.current;
@@ -27,7 +31,6 @@ function TextAnimate(props: TextAnimateProps) {
 				handleAnimationIteration
 			);
 		}
-
 		return () => {
 			if (animatedText) {
 				animatedText.removeEventListener(
@@ -37,7 +40,7 @@ function TextAnimate(props: TextAnimateProps) {
 			}
 			clearTimeout(timeoutId);
 		};
-	}, [props.array]);
+	}, [index]);
 
 	return (
 		<div ref={animatedTextRef}>

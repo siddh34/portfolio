@@ -59,6 +59,5 @@
     letter-spacing: .10em;
     animation:
         typing 3.9s steps(50, end) infinite,
-        /* Adjusted duration to include pause */
         blink-caret .75s step-end infinite;
 }
