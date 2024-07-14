@@ -12,7 +12,7 @@ const arr = [
 
 export default function Home() {
 	return (
-		<>
+		<div className="bg-white dark:bg-gray-900">
 			<nav class="bg-white border-gray-200 dark:bg-gray-900">
 				<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 					<a
@@ -95,10 +95,10 @@ export default function Home() {
 					className="rounded-xl object-cover h-50 w-96"
 				/>
 			</div>
-			<div className="flex justify-center items-center mb-7">
+			<div className="flex justify-center items-center mb-7 dark:text-white">
 				<p>Github Stats</p>
 			</div>
 			<GithubStats />
-		</>
+		</div>
 	);
 }
