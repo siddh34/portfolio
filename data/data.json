@@ -1,0 +1,27 @@
+{
+    "skills": ["Javascript", "Typescript", "React", "Express", "NestJS", "C++", "Java", "Go", "Rust"],
+    "experience": [
+        {
+            "company": "Denner",
+            "position": "Software Developer",
+            "startDate": "2023-08-01",
+            "endDate": "2024-06-31",
+            "description": ["Designed back-end query of Denner application", "Worked on database migrations of Supabase", "Improved app code readability by changing file structure of code"]
+        },
+        {
+            "company": "Codewites Solutions Pvt Ltd",
+            "position": "Software Development Intern",
+            "startDate": "2021-01-01",
+            "endDate": "2021-12-31",
+            "description": ["Added new test cases to the UI platform", "Worked on an AWS lambda for sensitive data management", "Designed Automation flow for platforms such as GKE, AKS, EKS", "Written an automated JWT based attacks for the platform uisng ExpressJS and database used here was MongoDB", "Worked on database migration i.e AWS OpenSearch To AWS dynamoDB, also wrote GraphQL queries for it"]
+        },
+        {
+			"company": "Denner",
+			"position": "Software Engineer",
+			"startDate": "2021-01-01",
+			"endDate": "2021-12-31",
+			"description": ["Build Server side Web Application for viewing profiles of users and clients"]
+		}
+    ]
+
+}

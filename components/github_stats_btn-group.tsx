@@ -5,9 +5,6 @@ interface GithubStatsProps {
 }
 
 function GithubStatsBtnGroup(props: GithubStatsProps) {
-    
-    console.log("props:", props);
-
 	return (
 		<div className="flex justify-center items-center">
 			<div class="inline-flex rounded-md shadow-sm" role="group"></div>
