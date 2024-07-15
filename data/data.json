@@ -70,6 +70,6 @@
 			"endDate": "none",
 			"description": ["Build Server side Web Application for viewing profiles of users and clients", "building internal dashboard"]
 		}
-    ]
-
+    ],
+    "projects": []
 }
