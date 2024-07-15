@@ -1,5 +1,5 @@
 {
-    "skills": ["Javascript", "Typescript", "React", "Nodejs", "NestJS", "C++", "Java", "Go", "Rust", "C", "deno"],
+    "skills": ["Javascript", "Typescript", "React", "Nodejs", "NestJS", "C++", "Java", "Go", "Rust", "C", "deno", "Python", "AWS", "GCP", "Azure", "Docker", "Kubernetes", "Jenkins", "Git", "Github", "Gitlab", "Bitbucket", "Postman"],
     "skillsIcon": {
         "Javascript": "https://img.icons8.com/color/48/000000/javascript.png",
         "Typescript": "https://img.icons8.com/color/48/000000/typescript.png",
@@ -11,7 +11,19 @@
         "Go": "https://img.icons8.com/color/48/000000/golang.png",
         "Rust": "https://img.icons8.com/color/48/000000/rust.png",
         "C": "https://img.icons8.com/color/48/000000/c-programming.png",
-        "deno": "https://img.icons8.com/color/48/000000/deno.png"
+        "deno": "https://img.icons8.com/color/48/000000/deno.png",
+        "Python": "https://img.icons8.com/color/48/000000/python.png",
+        "AWS": "https://img.icons8.com/color/48/000000/amazon-web-services.png",
+        "GCP": "https://img.icons8.com/color/48/000000/google-cloud-platform.png",
+        "Azure": "https://img.icons8.com/color/48/000000/azure-1.png",
+        "Docker": "https://img.icons8.com/color/48/000000/docker.png",
+        "Kubernetes": "https://img.icons8.com/color/48/000000/kubernetes.png",
+        "Jenkins": "https://img.icons8.com/color/48/000000/jenkins.png",
+        "Git": "https://img.icons8.com/color/48/000000/git.png",
+        "Github": "https://img.icons8.com/color/48/000000/github--v1.png",
+        "Gitlab": "https://img.icons8.com/color/48/000000/gitlab.png",
+        "Bitbucket": "https://img.icons8.com/color/48/000000/bitbucket.png",
+        "Postman": "https://img.icons8.com/?size=100&id=QEQQKirln6Tf&format=png&color=000000"
     },
     "education": [
         {
