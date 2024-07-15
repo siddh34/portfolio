@@ -5,7 +5,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				playwrite: ['"Playwrite CU"', "cursive"], // Use the font name as specified in your font import
+				playwrite: ['"Playwrite CU"', "cursive"],
 			},
 		},
 	},
