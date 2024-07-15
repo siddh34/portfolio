@@ -1,15 +1,17 @@
 {
-    "skills": ["Javascript", "Typescript", "React", "Express", "NestJS", "C++", "Java", "Go", "Rust"],
+    "skills": ["Javascript", "Typescript", "React", "Nodejs", "NestJS", "C++", "Java", "Go", "Rust", "C", "deno"],
     "skillsIcon": {
         "Javascript": "https://img.icons8.com/color/48/000000/javascript.png",
         "Typescript": "https://img.icons8.com/color/48/000000/typescript.png",
         "React": "https://img.icons8.com/color/48/000000/react-native.png",
-        "Express": "https://img.icons8.com/color/48/000000/nodejs.png",
+        "Nodejs": "https://img.icons8.com/color/48/000000/nodejs.png",
         "NestJS": "https://img.icons8.com/color/48/000000/nestjs.png",
         "C++": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png",
         "Java": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png",
         "Go": "https://img.icons8.com/color/48/000000/golang.png",
-        "Rust": "https://img.icons8.com/color/48/000000/rust.png"
+        "Rust": "https://img.icons8.com/color/48/000000/rust.png",
+        "C": "https://img.icons8.com/color/48/000000/c-programming.png",
+        "deno": "https://img.icons8.com/color/48/000000/deno.png"
     },
     "education": [
         {
@@ -23,8 +25,15 @@
             "institution": "Sir Parshurambhau College",
             "degree": "XII",
             "major": "Electronics",
-            "startDate": "2018-07-01",
+            "startDate": "2018-07-15",
             "endDate": "2020-03-30"
+        },
+        {
+            "institution": "Priyadarshini English Medium School",
+            "degree": "X",
+            "major": "none",
+            "startDate": "2006-07-15",
+            "endDate": "2018-03-30"
         }
     ],
     "experience": [
@@ -47,7 +56,7 @@
 			"position": "Software Engineer",
 			"startDate": "2024-06-31",
 			"endDate": "none",
-			"description": ["Build Server side Web Application for viewing profiles of users and clients"]
+			"description": ["Build Server side Web Application for viewing profiles of users and clients", "building internal dashboard"]
 		}
     ]
 

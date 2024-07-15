@@ -1,3 +1,4 @@
+import Skills from "../islands/skills.tsx";
 import GithubStats from "../islands/github_stats.tsx";
 import TextAnimate from "../islands/text_animate.tsx";
 
@@ -12,7 +13,7 @@ const arr = [
 
 export default function Home() {
 	return (
-		<div className="bg-white dark:bg-gray-900">
+		<div className="bg-white dark:bg-gray-900 h-full">
 			<nav class="bg-white border-gray-200 dark:bg-gray-900">
 				<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 					<a
@@ -99,6 +100,10 @@ export default function Home() {
 				<p>Github Stats</p>
 			</div>
 			<GithubStats />
+			<div className="flex justify-center items-center mb-7 dark:text-white mt-4">
+				<p>Below are the skills that I invested in</p>
+			</div>
+			<Skills />
 		</div>
 	);
 }
