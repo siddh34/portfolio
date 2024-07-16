@@ -4,32 +4,32 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
-import * as $api_eduction from "./routes/api/eduction.ts";
 import * as $api_github from "./routes/api/github.ts";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $api_skills from "./routes/api/skills.ts";
+import * as $api_timeline from "./routes/api/timeline.ts";
 import * as $index from "./routes/index.tsx";
-import * as $education_timeline from "./islands/education_timeline.tsx";
 import * as $github_stats from "./islands/github_stats.tsx";
 import * as $skills from "./islands/skills.tsx";
 import * as $text_animate from "./islands/text_animate.tsx";
+import * as $timeline from "./islands/timeline.tsx";
 import { type Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
-    "./routes/api/eduction.ts": $api_eduction,
     "./routes/api/github.ts": $api_github,
     "./routes/api/joke.ts": $api_joke,
     "./routes/api/skills.ts": $api_skills,
+    "./routes/api/timeline.ts": $api_timeline,
     "./routes/index.tsx": $index,
   },
   islands: {
-    "./islands/education_timeline.tsx": $education_timeline,
     "./islands/github_stats.tsx": $github_stats,
     "./islands/skills.tsx": $skills,
     "./islands/text_animate.tsx": $text_animate,
+    "./islands/timeline.tsx": $timeline,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

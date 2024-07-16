@@ -43,7 +43,7 @@
         {
             "institution": "Priyadarshini English Medium School",
             "degree": "X",
-            "major": "none",
+            "major": "State Board (Maharashtra)",
             "startDate": "2006-07-15",
             "endDate": "2018-03-30"
         }
@@ -61,14 +61,14 @@
             "position": "Software Development Intern",
             "startDate": "2021-01-01",
             "endDate": "2021-12-31",
-            "description": ["Added new test cases to the UI platform", "Worked on an AWS lambda for sensitive data management", "Designed Automation flow for platforms such as GKE, AKS, EKS", "Written an automated JWT based attacks for the platform uisng ExpressJS and database used here was MongoDB", "Worked on database migration i.e AWS OpenSearch To AWS dynamoDB, also wrote GraphQL queries for it"]
+            "description": ["Worked on an AWS lambda for sensitive data management", "Designed Automation flow for platforms such as GKE, AKS, EKS", "Worked on database migration i.e AWS OpenSearch To AWS dynamoDB, also wrote GraphQL queries for it"]
         },
         {
 			"company": "Denner",
 			"position": "Software Engineer",
 			"startDate": "2024-06-31",
 			"endDate": "none",
-			"description": ["Build Server side Web Application for viewing profiles of users and clients", "building internal dashboard"]
+			"description": ["Build Server side Web Application for viewing profiles of users and clients using VikeJS", "building internal dashboard in freshJS"]
 		}
     ],
     "projects": []

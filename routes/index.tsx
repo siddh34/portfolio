@@ -1,6 +1,7 @@
 import Skills from "../islands/skills.tsx";
 import GithubStats from "../islands/github_stats.tsx";
 import TextAnimate from "../islands/text_animate.tsx";
+import Timeline from "../islands/timeline.tsx";
 
 const arr = [
 	"Hello, myself Siddharth Sutar",
@@ -13,8 +14,8 @@ const arr = [
 
 export default function Home() {
 	return (
-		<div className="bg-white dark:bg-gray-900 h-full">
-			<nav class="bg-white border-gray-200 dark:bg-gray-900">
+		<div className="bg-white dark:bg-gray-900 h-full mx-auto">
+			<nav class="bg-white border-gray-200 dark:bg-gray-900 mx-auto">
 				<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 					<a
 						href="https://github.com/siddh34"
@@ -99,11 +100,23 @@ export default function Home() {
 			<div className="flex justify-center items-center mb-7 dark:text-white">
 				<p>Github Stats</p>
 			</div>
-			<GithubStats />
+			{/* <GithubStats /> */}
 			<div className="flex justify-center items-center mb-7 dark:text-white mt-4">
 				<p>Below are the skills that I invested in</p>
 			</div>
 			<Skills />
+			<div className="flex justify-center items-center mb-7 mt-7 ml-9 pl-9 mr-5 dark:text-white">
+				<p>Educational Timeline</p>
+			</div>
+			<div className="flex justify-center items-center mb-7 mt-7 dark:text-white">
+				<Timeline fetchData="education" />
+			</div>
+			<div className="flex justify-center items-center mb-7 mt-7 dark:text-white">
+				<p>Professional Timeline</p>
+			</div>
+			<div className="flex justify-center items-center mb-7 mt-7 ml-20 dark:text-white">
+				<Timeline fetchData="experience" />
+			</div>
 		</div>
 	);
 }
