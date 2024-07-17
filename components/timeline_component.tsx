@@ -46,7 +46,7 @@ function TimelineComponent(props: TimelineComponentProps) {
 	} else {
 		return (
 			<>
-				<div className="overflow-auto max-h-[400px] flex pr-9 mr-24">
+				<div className="overflow-auto max-h-[400px] flex pr-9 mr-2">
 					{" "}
 					{/* Added left and right padding */}
 					<ol className="flex items-center space-x-2">

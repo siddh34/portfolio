@@ -11,6 +11,7 @@ import * as $api_skills from "./routes/api/skills.ts";
 import * as $api_timeline from "./routes/api/timeline.ts";
 import * as $index from "./routes/index.tsx";
 import * as $github_stats from "./islands/github_stats.tsx";
+import * as $navbar from "./islands/navbar.tsx";
 import * as $projects from "./islands/projects.tsx";
 import * as $skills from "./islands/skills.tsx";
 import * as $text_animate from "./islands/text_animate.tsx";
@@ -30,6 +31,7 @@ const manifest = {
   },
   islands: {
     "./islands/github_stats.tsx": $github_stats,
+    "./islands/navbar.tsx": $navbar,
     "./islands/projects.tsx": $projects,
     "./islands/skills.tsx": $skills,
     "./islands/text_animate.tsx": $text_animate,

@@ -15,7 +15,7 @@ interface Project {
 function ProjectGallery(props: ProjectGalleryProps) {
   return (
 		<>
-			<div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-10">
+			<div className="grid grid-cols-1 md:grid-cols-2 gap-4 m-10 dark:bg-gray-900">
 				{props.projects.map((project, index) => (
 					<div
 						key={index}
