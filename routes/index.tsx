@@ -2,6 +2,7 @@ import Skills from "../islands/skills.tsx";
 import GithubStats from "../islands/github_stats.tsx";
 import TextAnimate from "../islands/text_animate.tsx";
 import Timeline from "../islands/timeline.tsx";
+import Projects from "../islands/projects.tsx";
 
 const arr = [
 	"Hello, myself Siddharth Sutar",
@@ -117,6 +118,8 @@ export default function Home() {
 			<div className="flex justify-center items-center mb-7 mt-7 ml-20 dark:text-white">
 				<Timeline fetchData="experience" />
 			</div>
+			<Projects/>
 		</div>
+		
 	);
 }
