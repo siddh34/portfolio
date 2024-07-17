@@ -25,17 +25,17 @@ function TimelineComponent(props: TimelineComponentProps) {
 	if (props.display === "education") {
 		return (
 			<>
-				<ol className="relative border-s border-gray-200 dark:border-gray-700">
+				<ol className="relative border-s border-gray-200 dark:border-gray-700 mt-16">
 					{props.eddata.map((item: Education, index: number) => (
 						<li key={index} className="mb-4 ms-2">
-							<div className="absolute w-2 h-2 bg-gray-200 rounded-full mt-1 -start-1 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+							<div className="z-10 absolute w-2 h-2 bg-gray-200 rounded-full mt-1 -start-1 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
 							<time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
 								{item.startDate} - {item.endDate}
 							</time>
-							<h3 className="text-sm font-semibold text-gray-900 dark:text-white">
+							<h3 className=" z-10 text-sm font-semibold text-gray-900 dark:text-white">
 								{item.degree} in {item.major}
 							</h3>
-							<p className="text-xs font-normal text-gray-500 dark:text-gray-400">
+							<p className="z-10 text-xs font-normal text-gray-500 dark:text-gray-400">
 								{item.institution}
 							</p>
 						</li>

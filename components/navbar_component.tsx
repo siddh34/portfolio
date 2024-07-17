@@ -4,7 +4,7 @@ function NavbarComponent() {
     const [isNavbarExpanded, setIsNavbarExpanded] = useState(false);
 
     return (
-		<nav className="sticky top-0 bg-white border-gray-200 dark:bg-gray-900 p-2 w-screen">
+		<nav className="top-0 bg-white dark:bg-gray-900 p-2 w-screen opacity-200 z-1000">
 			<div className="max-w-screen-1350 flex flex-wrap items-center justify-between ">
 				<a
 					href="https://github.com/siddh34"
