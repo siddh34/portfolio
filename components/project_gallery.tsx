@@ -8,7 +8,7 @@ interface Project {
 	source_code: string;
 	Technology: string[];
 	Description: string;
-	Company_link: string;
+	company_link: string;
 }
 
 
@@ -28,22 +28,35 @@ function ProjectGallery(props: ProjectGalleryProps) {
 							{project.Description}
 						</p>
 						<div className="flex items-center justify-between mt-4">
-							<a
-								href={project.source_code}
-								target="_blank"
-								rel="noreferrer"
-								className="text-sm font-semibold text-blue-500 dark:text-blue-400"
-							>
-								Source Code
-							</a>
-							<a
-								href={project.Company_link}
-								target="_blank"
-								rel="noreferrer"
-								className="text-sm font-semibold text-blue-500 dark:text-blue-400"
-							>
-								Company Link
-							</a>
+							{project.source_code ===
+							"Private as it's industry project" ? (
+								<p className="text-sm font-semibold text-gray-500 dark:text-gray-400">
+									Private
+								</p>
+							) : (
+								<a
+									href={project.source_code}
+									target="_blank"
+									rel="noreferrer"
+									className="text-sm font-semibold text-blue-500 dark:text-blue-400"
+								>
+									Source Code
+								</a>
+							)}
+							{project.company_link === "none" ? (
+								<p className="text-sm font-semibold text-gray-500 dark:text-gray-400">
+									Private
+								</p>
+							) : (
+								<a
+									href={project.company_link}
+									target="_blank"
+									rel="noreferrer"
+									className="text-sm font-semibold text-blue-500 dark:text-blue-400"
+								>
+									build for
+								</a>
+							)}
 						</div>
 						<div className="flex flex-wrap justify-center mt-4">
 							{project.Technology.map((tech, index) => (

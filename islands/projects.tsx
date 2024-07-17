@@ -6,7 +6,7 @@ interface Project {
 	source_code: string;
 	Technology: string[];
 	Description: string;
-	Company_link: string;
+	company_link: string;
 }
 
 interface skiilsToIcon {

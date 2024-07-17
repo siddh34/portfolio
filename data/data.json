@@ -30,7 +30,7 @@
         "TensorFlow": "https://www.gstatic.com/devrel-devsite/prod/vfa66122381520aa66a2392fe22cd63e3f9c34ba07e71f8c7082c2a470b6e6f49/tensorflow/images/lockup.svg",
         "HTML": "https://img.icons8.com/color/48/000000/html-5--v1.png",
         "CSS": "https://img.icons8.com/color/48/000000/css3.png",
-        "Flask": "https://img.icons8.com/color/48/000000/flask.png",
+        "Flask": "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png&color=000000",
         "MongoDB": "https://img.icons8.com/color/48/000000/mongodb.png",
         "SQLlite": "https://www.sqlite.org/images/sqlite370_banner.gif",
         "SQL": "https://img.icons8.com/color/48/000000/sql.png"
@@ -87,21 +87,21 @@
             "source_code": "https://github.com/siddh34/pomodoro-app",
             "Technology": ["Rust", "Typescript", "React"],
             "Description": "A pomodoro app made to manage time using pomodoro-cli",
-            "Company_link": "none"
+            "company_link": "none"
         },
         {
             "project_name": "Email Spam Detection Website",
             "source_code": "https://github.com/siddh34/Email-Spam-Detection",
             "Technology": ["HTML", "CSS", "Python", "Flask", "GCP"],
             "Description": "A ML based system that can detect spam on email body, also integrating GCP in dev mode",
-            "Company_link": "none"
+            "company_link": "none"
         },
         {
 			"project_name": "Backup Recovery System",
 			"source_code": "https://github.com/siddh34/BRC-System",
 			"Technology": ["Python", "QT", "Pandas"],
 			"Description": "A good system designed for database migration and queries on your local environment",
-			"Company_link": "none"
+			"company_link": "none"
 		},
         {
             "project_name": "Audit Management Website",
@@ -122,14 +122,14 @@
             "source_code": "https://github.com/siddh34/Fish-Detection-Project",
             "Technology": ["Python", "Pandas", "TensorFlow"],
             "Description": "A project designed to detect fish in a given image using CNN",
-            "Company_link": "none"
+            "company_link": "none"
         },
         {
             "project_name": "Sentiment Analysis",
             "source_code": "https://github.com/siddh34/Sentiment-Analysis",
             "Technology": ["Python", "Pandas"],
             "Description": "A project designed to detect sentiment of a given text recieved for twitter api's as well a news paper website",
-            "Company_link": "none"
+            "company_link": "none"
         }
     ]
 }
