@@ -30,7 +30,7 @@ export default function Home() {
 			<div className="flex justify-center items-center pb-3 dark:text-white dark:bg-gray-900">
 				<p>Github Stats</p>
 			</div>
-			<GithubStats />
+			{/* <GithubStats /> */}
 			<div className="flex justify-center items-center pb-7 dark:text-white mt-4 dark:bg-gray-900">
 				<p>Below are the skills that I invested in</p>
 			</div>
