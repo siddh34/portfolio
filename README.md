@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 A display of my skills
 
 # Run it
