@@ -45,7 +45,7 @@ function ProjectGallery(props: ProjectGalleryProps) {
 							)}
 							{project.company_link === "none" ? (
 								<p className="text-sm font-semibold text-gray-500 dark:text-gray-400">
-									Private
+									build for myself
 								</p>
 							) : (
 								<a
