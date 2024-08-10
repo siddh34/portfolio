@@ -12,10 +12,10 @@ interface ExperienceTimelineProps {
 
 function ExperienceTimeline(props: ExperienceTimelineProps) {
 	return (
-		<div class="timeline mx-auto my-5 p-5">
+		<div class="timeline mx-auto my-2 p-2">
 			{props.experience.map((exp) => {
 				return (
-					<div class="space-y-6 border-l-2 border-dashed">
+					<div class="space-y-3 border-l-2 border-dashed">
 						<div class="relative w-full">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"

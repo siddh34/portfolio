@@ -48,7 +48,7 @@ export default function Home() {
 			<div className="flex justify-center items-center pt-4 pb-4 dark:text-white dark:bg-gray-900">
 				<p>Professional Timeline</p>
 			</div>
-			<div className="flex justify-center items-center pl-20 pr-20 dark:text-white dark:bg-gray-900">
+			<div className="flex justify-center items-center pl-10 pr-10 dark:text-white dark:bg-gray-900">
 				<Experience />
 			</div>
 			<div

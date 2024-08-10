@@ -1,5 +1,5 @@
 {
-    "skills": ["Javascript", "Typescript", "React", "Nodejs", "NestJS", "C++", "Java", "Go", "Rust", "C", "deno", "Python", "AWS", "GCP", "Azure", "Docker", "Kubernetes", "Jenkins", "Git", "Github", "Gitlab", "Bitbucket", "Postman", "QT", "Pandas", "TailwindCSS", "TensorFlow", "HTML", "CSS", "Flask", "MongoDB", "SQLlite", "SQL"],
+    "skills": ["Javascript", "Typescript", "React", "Nodejs", "NestJS", "C++", "Java", "Go", "Rust", "C", "deno", "Python", "AWS", "GCP", "Azure", "Docker", "Kubernetes", "Jenkins", "Git", "Github", "Gitlab", "Bitbucket", "Postman", "QT", "Pandas", "TailwindCSS", "TensorFlow", "HTML", "CSS", "Flask", "MongoDB", "SQLlite", "SQL", "FastAPI"],
     "skillsIcon": {
         "Javascript": "https://img.icons8.com/color/48/000000/javascript.png",
         "Typescript": "https://img.icons8.com/color/48/000000/typescript.png",
@@ -33,7 +33,8 @@
         "Flask": "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png&color=000000",
         "MongoDB": "https://img.icons8.com/color/48/000000/mongodb.png",
         "SQLlite": "https://www.sqlite.org/images/sqlite370_banner.gif",
-        "SQL": "https://img.icons8.com/color/48/000000/sql.png"
+        "SQL": "https://img.icons8.com/color/48/000000/sql.png",
+        "FastAPI": "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
     },
     "education": [
         {
@@ -64,7 +65,7 @@
             "position": "Software Engineer",
             "startDate": "2024-06-31",
             "endDate": "present",
-            "description": ["Build Server side Web Application for viewing profiles of users and clients using VikeJS", "building internal dashboard in freshJS"]
+            "description": ["Built Server side Web Application for viewing profiles of users and clients using VikeJS", "Built internal dashboard in freshJS"]
         },
         {
             "company": "Codewites Solutions Pvt Ltd",
@@ -130,6 +131,12 @@
             "Technology": ["Python", "Pandas"],
             "Description": "A project designed to detect sentiment of a given text recieved for twitter api's as well a news paper website",
             "company_link": "none"
-        }
+        },{
+			"project_name": "Shopping backend",
+            "source_code": "https://github.com/siddh34/shopping-backend",
+            "Technology": ["FastAPI", "Python", "SQLlite"],
+            "Description": "A backend designed for shopping website, with all the CRUD operations",
+            "company_link": "none"
+		}
     ]
 }
