@@ -4,6 +4,7 @@ import GithubStats from "../islands/github_stats.tsx";
 import TextAnimate from "../islands/text_animate.tsx";
 import Timeline from "../islands/timeline.tsx";
 import Projects from "../islands/projects.tsx";
+import Experience from "../islands/experience.tsx";
 
 const arr = [
 	"Hello, myself Siddharth Sutar",
@@ -48,7 +49,7 @@ export default function Home() {
 				<p>Professional Timeline</p>
 			</div>
 			<div className="flex justify-center items-center pl-20 pr-20 dark:text-white dark:bg-gray-900">
-				<Timeline fetchData="experience" />
+				<Experience />
 			</div>
 			<div
 				className="flex justify-center items-center pt-3 dark:text-white dark:bg-gray-900"
