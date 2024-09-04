@@ -23,8 +23,12 @@ export default function Home() {
 			<div className="bg-white dark:bg-gray-900 flex justify-center items-center">
 				<TextAnimate array={arr} />
 			</div>
-			<div className="bg-white dark:bg-gray-900 flex justify-center items-center m-10">
+			<div className="bg-white dark:bg-gray-900 flex justify-center items-center m-6">
 				<img src="/main.jpg" className="rounded-xl object-cover h-45 w-96" />
+			</div>
+
+			<div className="flex justify-center items-center pb-3 dark:text-white dark:bg-gray-900">
+				<p>Let's connect on</p>
 			</div>
 
 			<SocialIsland />
