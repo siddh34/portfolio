@@ -25,7 +25,7 @@ function TimelineComponent(props: TimelineComponentProps) {
 	if (props.display === "education") {
 		return (
 			<>
-				<ol className="relative border-s border-gray-200 dark:border-gray-700 mt-16">
+				<ol className="relative border-s border-gray-200 dark:border-gray-700 mt-3">
 					{props.eddata.map((item: Education, index: number) => (
 						<li key={index} className="mb-4 ms-2">
 							<div className="z-10 absolute w-2 h-2 bg-gray-200 rounded-full mt-1 -start-1 border border-white dark:border-gray-900 dark:bg-gray-700"></div>

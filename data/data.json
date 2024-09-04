@@ -1,142 +1,211 @@
 {
-    "skills": ["Javascript", "Typescript", "React", "Nodejs", "NestJS", "C++", "Java", "Go", "Rust", "C", "deno", "Python", "AWS", "GCP", "Azure", "Docker", "Kubernetes", "Jenkins", "Git", "Github", "Gitlab", "Bitbucket", "Postman", "QT", "Pandas", "TailwindCSS", "TensorFlow", "HTML", "CSS", "Flask", "MongoDB", "SQLlite", "SQL", "FastAPI"],
-    "skillsIcon": {
-        "Javascript": "https://img.icons8.com/color/48/000000/javascript.png",
-        "Typescript": "https://img.icons8.com/color/48/000000/typescript.png",
-        "React": "https://img.icons8.com/color/48/000000/react-native.png",
-        "Nodejs": "https://img.icons8.com/color/48/000000/nodejs.png",
-        "NestJS": "https://img.icons8.com/color/48/000000/nestjs.png",
-        "C++": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png",
-        "Java": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png",
-        "Go": "https://img.icons8.com/color/48/000000/golang.png",
-        "Rust": "https://img.icons8.com/color/48/000000/rust.png",
-        "C": "https://img.icons8.com/color/48/000000/c-programming.png",
-        "deno": "https://img.icons8.com/color/48/000000/deno.png",
-        "Python": "https://img.icons8.com/color/48/000000/python.png",
-        "AWS": "https://img.icons8.com/color/48/000000/amazon-web-services.png",
-        "GCP": "https://img.icons8.com/color/48/000000/google-cloud-platform.png",
-        "Azure": "https://img.icons8.com/color/48/000000/azure-1.png",
-        "Docker": "https://img.icons8.com/color/48/000000/docker.png",
-        "Kubernetes": "https://img.icons8.com/color/48/000000/kubernetes.png",
-        "Jenkins": "https://img.icons8.com/color/48/000000/jenkins.png",
-        "Git": "https://img.icons8.com/color/48/000000/git.png",
-        "Github": "https://img.icons8.com/color/48/000000/github--v1.png",
-        "Gitlab": "https://img.icons8.com/color/48/000000/gitlab.png",
-        "Bitbucket": "https://img.icons8.com/color/48/000000/bitbucket.png",
-        "Postman": "https://img.icons8.com/?size=100&id=QEQQKirln6Tf&format=png&color=000000",
-        "QT": "https://img.icons8.com/?size=100&id=tNxofVIppxae&format=png&color=000000",
-        "Pandas": "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000",
-        "TailwindCSS": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
-        "TensorFlow": "https://www.gstatic.com/devrel-devsite/prod/vfa66122381520aa66a2392fe22cd63e3f9c34ba07e71f8c7082c2a470b6e6f49/tensorflow/images/lockup.svg",
-        "HTML": "https://img.icons8.com/color/48/000000/html-5--v1.png",
-        "CSS": "https://img.icons8.com/color/48/000000/css3.png",
-        "Flask": "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png&color=000000",
-        "MongoDB": "https://img.icons8.com/color/48/000000/mongodb.png",
-        "SQLlite": "https://www.sqlite.org/images/sqlite370_banner.gif",
-        "SQL": "https://img.icons8.com/color/48/000000/sql.png",
-        "FastAPI": "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png"
-    },
-    "education": [
-        {
-            "institution": "Vishakarma Institute of Information Technology",
-            "degree": "Bachelor of Engineering",
-            "major": "Computer Engineering",
-            "startDate": "2020-01-01",
-            "endDate": "2024-04-01"
-        },
-        {
-            "institution": "Sir Parshurambhau College",
-            "degree": "XII",
-            "major": "Electronics",
-            "startDate": "2018-07-15",
-            "endDate": "2020-03-30"
-        },
-        {
-            "institution": "Priyadarshini English Medium School",
-            "degree": "X",
-            "major": "State Board (Maharashtra)",
-            "startDate": "2006-07-15",
-            "endDate": "2018-03-30"
-        }
-    ],
-    "experience": [
-        {
-            "company": "Denner",
-            "position": "Software Engineer",
-            "startDate": "2024-06-31",
-            "endDate": "present",
-            "description": ["Built Server side Web Application for viewing profiles of users and clients using VikeJS", "Built internal dashboard in freshJS"]
-        },
-        {
-            "company": "Codewites Solutions Pvt Ltd",
-            "position": "Software Development Intern",
-            "startDate": "2023-08-01",
-            "endDate": "2024-06-28",
-            "description": ["Worked on an AWS lambda for sensitive data management", "Designed Automation flow for platforms such as GKE, AKS, EKS", "Worked on database migration i.e AWS OpenSearch To AWS dynamoDB, also wrote GraphQL queries for it"]
-        },
-        {
-            "company": "Denner",
-            "position": "Software Developer Part-time",
-            "startDate": "2023-08-01",
-            "endDate": "2024-06-31",
-            "description": ["Designed back-end query of Denner application", "Worked on database migrations of Supabase", "Improved app code readability by changing file structure of code"]
-        }
-    ],
-    "projects": [
-        {
-            "project_name": "pomodoro app",
-            "source_code": "https://github.com/siddh34/pomodoro-app",
-            "Technology": ["Rust", "Typescript", "React"],
-            "Description": "A pomodoro app made to manage time using pomodoro-cli",
-            "company_link": "none"
-        },
-        {
-            "project_name": "Email Spam Detection Website",
-            "source_code": "https://github.com/siddh34/Email-Spam-Detection",
-            "Technology": ["HTML", "CSS", "Python", "Flask", "GCP"],
-            "Description": "A ML based system that can detect spam on email body, also integrating GCP in dev mode",
-            "company_link": "none"
-        },
-        {
+	"skills": [
+		"Javascript",
+		"Typescript",
+		"React",
+		"Nodejs",
+		"NestJS",
+		"C++",
+		"Java",
+		"Go",
+		"Rust",
+		"C",
+		"deno",
+		"Python",
+		"AWS",
+		"GCP",
+		"Azure",
+		"Docker",
+		"Kubernetes",
+		"Jenkins",
+		"Git",
+		"Github",
+		"Gitlab",
+		"Bitbucket",
+		"Postman",
+		"QT",
+		"Pandas",
+		"TailwindCSS",
+		"TensorFlow",
+		"HTML",
+		"CSS",
+		"Flask",
+		"MongoDB",
+		"SQLlite",
+		"SQL",
+		"FastAPI",
+		"Ollama",
+		"Gin-Gonic",
+		"Swagger",
+        "NLTK"
+	],
+	"skillsIcon": {
+		"Javascript": "https://img.icons8.com/color/48/000000/javascript.png",
+		"Typescript": "https://img.icons8.com/color/48/000000/typescript.png",
+		"React": "https://img.icons8.com/color/48/000000/react-native.png",
+		"Nodejs": "https://img.icons8.com/color/48/000000/nodejs.png",
+		"NestJS": "https://img.icons8.com/color/48/000000/nestjs.png",
+		"C++": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png",
+		"Java": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png",
+		"Go": "https://img.icons8.com/color/48/000000/golang.png",
+		"Rust": "https://img.icons8.com/color/48/000000/rust.png",
+		"C": "https://img.icons8.com/color/48/000000/c-programming.png",
+		"deno": "https://img.icons8.com/color/48/000000/deno.png",
+		"Python": "https://img.icons8.com/color/48/000000/python.png",
+		"AWS": "https://avatars.githubusercontent.com/u/2232217?s=200&v=4",
+		"GCP": "https://img.icons8.com/color/48/000000/google-cloud-platform.png",
+		"Azure": "https://img.icons8.com/color/48/000000/azure-1.png",
+		"Docker": "https://img.icons8.com/color/48/000000/docker.png",
+		"Kubernetes": "https://img.icons8.com/color/48/000000/kubernetes.png",
+		"Jenkins": "https://img.icons8.com/color/48/000000/jenkins.png",
+		"Git": "https://img.icons8.com/color/48/000000/git.png",
+		"Github": "https://img.icons8.com/color/48/000000/github--v1.png",
+		"Gitlab": "https://img.icons8.com/color/48/000000/gitlab.png",
+		"Bitbucket": "https://img.icons8.com/color/48/000000/bitbucket.png",
+		"Postman": "https://img.icons8.com/?size=100&id=QEQQKirln6Tf&format=png&color=000000",
+		"QT": "https://avatars.githubusercontent.com/u/159455?s=48&v=4",
+		"Pandas": "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000",
+		"TailwindCSS": "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
+		"TensorFlow": "https://avatars.githubusercontent.com/u/15658638?s=200&v=4",
+		"HTML": "https://img.icons8.com/color/48/000000/html-5--v1.png",
+		"CSS": "https://img.icons8.com/color/48/000000/css3.png",
+		"Flask": "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png&color=000000",
+		"MongoDB": "https://img.icons8.com/color/48/000000/mongodb.png",
+		"SQLlite": "https://avatars.githubusercontent.com/u/48680494?s=48&v=4",
+		"SQL": "https://img.icons8.com/color/48/000000/sql.png",
+		"FastAPI": "https://avatars.githubusercontent.com/u/156354296?s=48&v=4",
+		"Ollama": "https://ollama.com/public/ollama.png",
+		"Gin-Gonic": "https://avatars.githubusercontent.com/u/7894478?s=200&v=4",
+		"Swagger": "https://avatars.githubusercontent.com/u/7658037?s=200&v=4",
+        "NLTK": "https://avatars.githubusercontent.com/u/124114?s=200&v=4"
+	},
+	"education": [
+		{
+			"institution": "Vishakarma Institute of Information Technology",
+			"degree": "Bachelor of Engineering",
+			"major": "Computer Engineering",
+			"startDate": "2020-01-01",
+			"endDate": "2024-04-01"
+		},
+		{
+			"institution": "Sir Parshurambhau College",
+			"degree": "XII",
+			"major": "Electronics",
+			"startDate": "2018-07-15",
+			"endDate": "2020-03-30"
+		},
+		{
+			"institution": "Priyadarshini English Medium School",
+			"degree": "X",
+			"major": "State Board (Maharashtra)",
+			"startDate": "2006-07-15",
+			"endDate": "2018-03-30"
+		}
+	],
+	"experience": [
+		{
+			"company": "Denner",
+			"position": "Software Engineer",
+			"startDate": "2024-06-31",
+			"endDate": "present",
+			"description": [
+				"Built Server side Web Application for viewing profiles of users and clients using VikeJS",
+				"Built internal dashboard in freshJS"
+			]
+		},
+		{
+			"company": "Codewites Solutions Pvt Ltd",
+			"position": "Software Development Intern",
+			"startDate": "2023-08-01",
+			"endDate": "2024-06-28",
+			"description": [
+				"Worked on an AWS lambda for sensitive data management",
+				"Designed Automation flow for platforms such as GKE, AKS, EKS",
+				"Worked on database migration i.e AWS OpenSearch To AWS dynamoDB, also wrote GraphQL queries for it"
+			]
+		},
+		{
+			"company": "Denner",
+			"position": "Software Developer Part-time",
+			"startDate": "2023-08-01",
+			"endDate": "2024-06-31",
+			"description": [
+				"Designed back-end query of Denner application",
+				"Worked on database migrations of Supabase",
+				"Improved app code readability by changing file structure of code"
+			]
+		}
+	],
+	"projects": [
+		{
+			"project_name": "Pomodoro app",
+			"source_code": "https://github.com/siddh34/pomodoro-app",
+			"Technology": ["Rust", "Typescript", "React"],
+			"Description": "A pomodoro app made to manage time using pomodoro-cli",
+			"company_link": "none"
+		},
+		{
+			"project_name": "Email Spam Detection Website",
+			"source_code": "https://github.com/siddh34/Email-Spam-Detection",
+			"Technology": ["HTML", "CSS", "Python", "Flask", "GCP", "Docker"],
+			"Description": "A ML based system that can detect spam on email body, also integrating GCP in dev mode",
+			"company_link": "none"
+		},
+		{
 			"project_name": "Backup Recovery System",
 			"source_code": "https://github.com/siddh34/BRC-System",
 			"Technology": ["Python", "QT", "Pandas"],
 			"Description": "A good system designed for database migration and queries on your local environment",
 			"company_link": "none"
 		},
-        {
-            "project_name": "Audit Management Website",
-            "source_code": "Private as it's industry project",
-            "Technology": ["React", "TailwindCSS", "Nodejs", "Docker", "Kubernetes", "MongoDB"],
-            "Description": "A Website build in React design to manage audits at industry level. Designed for fuild controls",
-            "company_link": "https://fluidcontrols.com/"
-        },
-        {
+		{
+			"project_name": "Audit Management Website",
+			"source_code": "Private as it's industry project",
+			"Technology": [
+				"React",
+				"TailwindCSS",
+				"Nodejs",
+				"Docker",
+				"Kubernetes",
+				"MongoDB"
+			],
+			"Description": "A Website build in React design to manage audits at industry level. Designed for fuild controls",
+			"company_link": "https://fluidcontrols.com/"
+		},
+		{
 			"project_name": "Pipe Pressure Calculator",
 			"source_code": "Private as it's industry project",
-            "Technology": ["Python", "QT", "SQLlite", "Pandas"],
-            "Description": "A GUI application designed to calculate pipe's pressure on a laminar flow on diff pipe attachments",
-            "company_link": "https://www.atlascopco.com/"
+			"Technology": ["Python", "QT", "SQLlite", "Pandas"],
+			"Description": "A GUI application designed to calculate pipe's pressure on a laminar flow on diff pipe attachments",
+			"company_link": "https://www.atlascopco.com/"
 		},
-        {
-            "project_name": "Fish Detection using CNN",
-            "source_code": "https://github.com/siddh34/Fish-Detection-Project",
-            "Technology": ["Python", "Pandas", "TensorFlow"],
-            "Description": "A project designed to detect fish in a given image using CNN",
-            "company_link": "none"
-        },
-        {
-            "project_name": "Sentiment Analysis",
-            "source_code": "https://github.com/siddh34/Sentiment-Analysis",
-            "Technology": ["Python", "Pandas"],
-            "Description": "A project designed to detect sentiment of a given text recieved for twitter api's as well a news paper website",
-            "company_link": "none"
-        },{
+		{
+			"project_name": "Fish Detection using CNN",
+			"source_code": "https://github.com/siddh34/Fish-Detection-Project",
+			"Technology": ["Python", "Pandas", "TensorFlow"],
+			"Description": "A project designed to detect fish in a given image using CNN",
+			"company_link": "none"
+		},
+		{
+			"project_name": "Sentiment Analysis",
+			"source_code": "https://github.com/siddh34/Sentiment-Analysis",
+			"Technology": ["Python", "Pandas", "NLTK"],
+			"Description": "A project designed to detect sentiment of a given text recieved for twitter api's as well a news paper website",
+			"company_link": "none"
+		},
+		{
 			"project_name": "Shopping backend",
-            "source_code": "https://github.com/siddh34/shopping-backend",
-            "Technology": ["FastAPI", "Python", "SQLlite"],
-            "Description": "A backend designed for shopping website, with all the CRUD operations",
-            "company_link": "none"
+			"source_code": "https://github.com/siddh34/shopping-backend",
+			"Technology": ["FastAPI", "Python", "SQLlite", "Docker"],
+			"Description": "A backend designed for shopping website, with all the CRUD operations",
+			"company_link": "none"
+		},
+		{
+			"project_name": "iLLM Backend",
+			"source_code": "https://github.com/Daily-Utils/iLLM-backend",
+			"Technology": ["Ollama", "Gin-Gonic", "Go", "Swagger", "Docker"],
+			"Description": "A backend designed for providing context to llama3.1 model, then questions can be asked using this backend. Currently docx, pdf & txt files are supported",
+			"company_link": "none"
 		}
-    ]
+	]
 }
