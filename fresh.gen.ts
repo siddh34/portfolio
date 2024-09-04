@@ -8,6 +8,7 @@ import * as $api_github from "./routes/api/github.ts";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $api_projects from "./routes/api/projects.ts";
 import * as $api_skills from "./routes/api/skills.ts";
+import * as $api_socials from "./routes/api/socials.ts";
 import * as $api_timeline from "./routes/api/timeline.ts";
 import * as $index from "./routes/index.tsx";
 import * as $experience from "./islands/experience.tsx";
@@ -15,6 +16,7 @@ import * as $github_stats from "./islands/github_stats.tsx";
 import * as $navbar from "./islands/navbar.tsx";
 import * as $projects from "./islands/projects.tsx";
 import * as $skills from "./islands/skills.tsx";
+import * as $socials_island from "./islands/socials_island.tsx";
 import * as $text_animate from "./islands/text_animate.tsx";
 import * as $timeline from "./islands/timeline.tsx";
 import { type Manifest } from "$fresh/server.ts";
@@ -27,6 +29,7 @@ const manifest = {
     "./routes/api/joke.ts": $api_joke,
     "./routes/api/projects.ts": $api_projects,
     "./routes/api/skills.ts": $api_skills,
+    "./routes/api/socials.ts": $api_socials,
     "./routes/api/timeline.ts": $api_timeline,
     "./routes/index.tsx": $index,
   },
@@ -36,6 +39,7 @@ const manifest = {
     "./islands/navbar.tsx": $navbar,
     "./islands/projects.tsx": $projects,
     "./islands/skills.tsx": $skills,
+    "./islands/socials_island.tsx": $socials_island,
     "./islands/text_animate.tsx": $text_animate,
     "./islands/timeline.tsx": $timeline,
   },

@@ -5,6 +5,7 @@ import TextAnimate from "../islands/text_animate.tsx";
 import Timeline from "../islands/timeline.tsx";
 import Projects from "../islands/projects.tsx";
 import Experience from "../islands/experience.tsx";
+import SocialIsland from "../islands/socials_island.tsx";
 
 const arr = [
 	"Hello, myself Siddharth Sutar",
@@ -23,11 +24,11 @@ export default function Home() {
 				<TextAnimate array={arr} />
 			</div>
 			<div className="bg-white dark:bg-gray-900 flex justify-center items-center m-10">
-				<img
-					src="/main.jpg"
-					className="rounded-xl object-cover h-50 w-96"
-				/>
+				<img src="/main.jpg" className="rounded-xl object-cover h-45 w-96" />
 			</div>
+
+			<SocialIsland />
+
 			<div className="flex justify-center items-center pb-3 dark:text-white dark:bg-gray-900">
 				<p>Github Stats</p>
 			</div>
